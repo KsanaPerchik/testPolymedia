@@ -20,6 +20,9 @@ db.init_app(app)
 app.config['API_TITLE'] = 'TestAPI'
 app.config['API_VERSION'] = 'v1'
 app.config['OPENAPI_VERSION'] = '3.1.0'
+app.config['OPENAPI_URL_PREFIX'] = 'doc'
+app.config['OPENAPI_REDOC_PATH'] = 'redoc'
+app.config['OPENAPI_REDOC_URL'] = 'https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js'
 api.init_app(app)
 
 
