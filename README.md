@@ -40,3 +40,4 @@
     - JACK
     - QUEEN
     - KING
+  - описание API: `http://0.0.0.0:5011/doc/redoc`
